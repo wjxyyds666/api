@@ -1,7 +1,10 @@
 {
-  "functions": {
-    "api/**/*.php": {
-      "runtime": "vercel-php@0.7.0"
-    }
+  "name": "api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "true"
+  },
+  "devDependencies": {
+    "vercel-php": "^0.7.0"
   }
 }
