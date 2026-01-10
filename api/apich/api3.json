@@ -1,0 +1,20 @@
+{
+  "api_list": [
+    {
+      "id": 3,
+      "name": "视频测试",
+      "description": "视频测试",
+      "method": "GET",
+      "endpoint": "http://api.6666116.xyz",
+      "parameters": [
+        {
+          "param_name": "id",
+          "param_type": "int",
+          "is_required": true,
+          "description": "用户的唯一标识ID"
+        }
+      ],
+      "response_example": "https://alimov2.a.kwimgs.com/upic/2023/09/03/15/BMjAyMzA5MDMxNTQ0MjBfODUxMDMzODhfMTEyMDM1NzQ0MDEyXzFfMw==_b_Bd9cd5eaae8101f7dea2e48bd5e5b3466.mp4?clientCacheKey=3xv9ecwnaukg5hi_b.mp4"
+    }
+  ]
+}

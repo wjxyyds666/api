@@ -1,0 +1,20 @@
+{
+  "api_list": [
+    {
+      "id": 2,
+      "name": "图片测试",
+      "description": "图片测试",
+      "method": "GET",
+      "endpoint": "http://api.6666116.xyz",
+      "parameters": [
+        {
+          "param_name": "id",
+          "param_type": "int",
+          "is_required": true,
+          "description": "用户的唯一标识ID"
+        }
+      ],
+      "response_example": "https://www.cccimg.com/view.php/fb14b689f41f978174573dddc797eb5a.png"
+    }
+  ]
+}

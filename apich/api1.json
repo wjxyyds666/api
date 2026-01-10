@@ -1,0 +1,26 @@
+{
+  "api_list": [
+    {
+      "id": 1,
+      "name": "日历信息",
+      "description": "日历",
+      "method": "GET",
+      "endpoint": "/api/calendar.php",
+      "parameters": [
+        {
+          "param_name": "id",
+          "param_type": "int",
+          "is_required": true,
+          "description": "用户的唯一标识ID"
+        }
+      ],
+      "response_example":{
+        "日期": "2026年01月09日 星期五",
+        "农历": "乙巳蛇年 冬月廿一",
+        "时间": "16:25:14 下午",
+        "时辰": "申时",
+        "节气": "小寒后"
+      }
+    }
+  ]
+}
